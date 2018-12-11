@@ -1,0 +1,21 @@
+2018-12-11 21:00:52.9790 | configuration:
+args   : [C:\iTWO40\Model\Development\Converter\2018-sp0-u0\x64\Release\Model.Converter.exe --infile C:\iTWO40\Model\Development\Converter\2018-sp0-u0\Resourses\converter.input.xml --logfile C:\iTWO40\Model\Development\Converter\2018-sp0-u0\Resourses\log.txt --createscs C:\iTWO40\Model\Development\Converter\2018-sp0-u0\Resourses\model_data\test.scs]
+input  : [C:\iTWO40\Model\Development\Converter\2018-sp0-u0\Resourses\converter.input.xml]
+log    : [C:\iTWO40\Model\Development\Converter\2018-sp0-u0\Resourses\log.txt]
+config : [C:\iTWO40\Model\Development\Converter\2018-sp0-u0\x64\Release\model.converter.config.xml]
+content: [c:\itwo40\model\development\converter\2018-sp0-u0\resourses]
+cache  : [model_data]
+json   : [json_data]
+stream cache path [c:\itwo40\model\development\converter\2018-sp0-u0\resourses\model_data]
+2018-12-11 21:00:53.1206 | start
+2018-12-11 21:00:53.1656 | prepare model
+2018-12-11 21:00:53.1661 | start creating sc stream
+2018-12-11 21:00:58.9754 | end creating sc stream
+2018-12-11 21:00:58.9759 | start creating json file
+2018-12-11 21:00:59.6364 | end creating json file
+2018-12-11 21:00:59.6364 | end
+2018-12-11 21:00:59.6384 | statistics:
+-> mem current (MB): virtual 787, working set 74, paged 45, private 45
+-> mem peak (MB):    virtual 965, working set 85, paged 59
+-> cpu total:        00:00:01.0937500
+2018-12-11 21:00:59.6494 | finished.
