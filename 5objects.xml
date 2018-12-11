@@ -1,0 +1,285 @@
+<!--HC 6.5-->
+<Root>
+	<GlobalData>
+		<ColorTable size="3" data="0.5019608139991760254 0.5019608139991760254 0.5019608139991760254"/>
+		<Style ColorIndex="0" Width="0.1000000014901161194"/>
+		<Style ColorIndex="0" Width="0.1000000014901161194"/>
+	</GlobalData>
+	<ModelFile>
+		<ProductOccurence Id="0" Name="5objects" ExchangeId="" Behaviour="1" Children="1" Unit="1000.000000" IsPart="false"/>
+		<ProductOccurence Id="1" Name="Projektnummer" ExchangeId="" LayerId="65535" Style="1" Behaviour="1" FilePath="c:\itwo40\model\development\converter\2018-sp0-u0\resourses\5objects.ifc" Children="2" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCPROJECT"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="IFCPROJECT/Name" Type="String" Value="Projektnummer"/>
+				<Attr Name="IFCPROJECT/GlobalId" Type="String" Value="1A$AmE5Un1cAA58yYYc8i4"/>
+				<Attr Name="IFCPROJECT/LongName" Type="String" Value="Projektname"/>
+				<Attr Name="IFCPROJECT/Phase" Type="String" Value="Projektstatus"/>
+				<Attr Name="IFCPROJECT/LENGTHUNIT" Type="String" Value="METRE"/>
+				<Attr Name="IFCPROJECT/AREAUNIT" Type="String" Value="SQUARE_METRE"/>
+				<Attr Name="IFCPROJECT/VOLUMEUNIT" Type="String" Value="CUBIC_METRE"/>
+				<Attr Name="IFCPROJECT/MASSUNIT" Type="String" Value="KILO GRAM"/>
+				<Attr Name="IFCPROJECT/TIMEUNIT" Type="String" Value="SECOND"/>
+				<Attr Name="IFCPROJECT/FREQUENCYUNIT" Type="String" Value="HERTZ"/>
+				<Attr Name="IFCPROJECT/THERMODYNAMICTEMPERATUREUNIT" Type="String" Value="DEGREE_CELSIUS"/>
+				<Attr Name="IFCPROJECT/ELECTRICCURRENTUNIT" Type="String" Value="AMPERE"/>
+				<Attr Name="IFCPROJECT/ELECTRICVOLTAGEUNIT" Type="String" Value="VOLT"/>
+				<Attr Name="IFCPROJECT/POWERUNIT" Type="String" Value="WATT"/>
+				<Attr Name="IFCPROJECT/FORCEUNIT" Type="String" Value="KILO NEWTON"/>
+				<Attr Name="IFCPROJECT/ILLUMINANCEUNIT" Type="String" Value="LUX"/>
+				<Attr Name="IFCPROJECT/LUMINOUSFLUXUNIT" Type="String" Value="LUMEN"/>
+				<Attr Name="IFCPROJECT/LUMINOUSINTENSITYUNIT" Type="String" Value="CANDELA"/>
+				<Attr Name="IFCPROJECT/PRESSUREUNIT" Type="String" Value="PASCAL"/>
+			</Attributes>
+			<Layer Id="1" Name="A-WALL-____-OTLN"/>
+		</ProductOccurence>
+		<ProductOccurence Id="2" Name="Default" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" Children="3" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCSITE"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="IFCSITE/Name" Type="String" Value="Default"/>
+				<Attr Name="IFCSITE/GlobalId" Type="String" Value="1A$AmE5Un1cAA58yYYc8i6"/>
+				<Attr Name="IFCSITE/CompositionType" Type="String" Value="ELEMENT"/>
+				<Attr Name="IFCSITE/Latitude" Type="String" Value='52°30&apos;59"765625'/>
+				<Attr Name="IFCSITE/Longitude" Type="String" Value='13°23&apos;59"998626'/>
+				<Attr Name="IFCSITE/Elevation" Type="Float" Value="0.000000"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="3" Name="" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" Children="4" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCBUILDING"/>
+				<Attr Name="Pset_BuildingCommon/NumberOfStoreys" Type="Int" Value="1"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="IFCBUILDING/GlobalId" Type="String" Value="1A$AmE5Un1cAA58yYYc8i5"/>
+				<Attr Name="IFCBUILDING/CompositionType" Type="String" Value="ELEMENT"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="4" Name="Ebene 0" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" Children="5" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCBUILDINGSTOREY"/>
+				<Attr Name="Pset_BuildingStoreyCommon/AboveGround" Type="String" Value="U"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="IFCBUILDINGSTOREY/Name" Type="String" Value="Ebene 0"/>
+				<Attr Name="IFCBUILDINGSTOREY/GlobalId" Type="String" Value="1A$AmE5Un1cAA58yXTPnGs"/>
+				<Attr Name="IFCBUILDINGSTOREY/CompositionType" Type="String" Value="ELEMENT"/>
+				<Attr Name="IFCBUILDINGSTOREY/Elevation" Type="Float" Value="0.000000"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="5" Name="IFCWALL" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" Children="6 7 8 9 10" IsPart="false"/>
+		<ProductOccurence Id="6" Name="Wall B:Wall B:391377" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" InstanceRef="12" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -7.891698360443115234 13.94140434265136719 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALL"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Wall B"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="F"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Vorgabe - Wand"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Wall B:Wall B"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0Hjo9o"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="391377"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWALL/Name" Type="String" Value="Wall B:Wall B:391379"/>
+				<Attr Name="IFCWALL/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0Hjo9m"/>
+				<Attr Name="IFCWALL/ObjectType" Type="String" Value="Wall B:Wall B:391377"/>
+				<Attr Name="IFCWALL/Tag" Type="String" Value="391379"/>
+			</Attributes>
+			<BodyInstance Id="15" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 1" BodyRef="13"/>
+			<BodyInstance Id="16" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 2" BodyRef="14"/>
+		</ProductOccurence>
+		<ProductOccurence Id="12" Name="" ExchangeId="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="11" Name="" ExchangeId="" Behaviour="1">
+				<Body Id="13" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.355464779539033771 0.125 1.25" Surface="16.083056" Volume="1.685575"/>
+				</Body>
+				<Body Id="14" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.2726514500219202608 0.125 3.014640823557716676" Surface="0.928352" Volume="0.024624"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="7" Name="Wall B1:Wall B:394075" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" InstanceRef="18" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -4.384693145751953125 13.94140434265136719 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALL"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Wall B"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="F"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Vorgabe - Wand"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Wall B1:Wall B"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDdu"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="394075"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWALL/Name" Type="String" Value="Wall B1:Wall B:394077"/>
+				<Attr Name="IFCWALL/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDd_"/>
+				<Attr Name="IFCWALL/ObjectType" Type="String" Value="Wall B1:Wall B:394075"/>
+				<Attr Name="IFCWALL/Tag" Type="String" Value="394077"/>
+			</Attributes>
+			<BodyInstance Id="21" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 3" BodyRef="19"/>
+			<BodyInstance Id="22" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 4" BodyRef="20"/>
+		</ProductOccurence>
+		<ProductOccurence Id="18" Name="" ExchangeId="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="17" Name="" ExchangeId="" Behaviour="1">
+				<Body Id="19" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.348459601402282715 0.125 1.25" Surface="16.083056" Volume="1.685575"/>
+				</Body>
+				<Body Id="20" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.224716612749786937 0.125 2.943790463498542564" Surface="1.220219" Volume="0.036933"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="8" Name="Wall B2:Wall B:394172" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" InstanceRef="24" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -0.884693145751953125 13.94140434265136719 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALL"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Wall B"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="F"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Vorgabe - Wand"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Wall B2:Wall B"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDaV"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="394172"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWALL/Name" Type="String" Value="Wall B2:Wall B:394174"/>
+				<Attr Name="IFCWALL/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDaT"/>
+				<Attr Name="IFCWALL/ObjectType" Type="String" Value="Wall B2:Wall B:394172"/>
+				<Attr Name="IFCWALL/Tag" Type="String" Value="394174"/>
+			</Attributes>
+			<BodyInstance Id="27" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 5" BodyRef="25"/>
+			<BodyInstance Id="28" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 6" BodyRef="26"/>
+		</ProductOccurence>
+		<ProductOccurence Id="24" Name="" ExchangeId="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="23" Name="" ExchangeId="" Behaviour="1">
+				<Body Id="25" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.348459601402282715 0.125 1.25" Surface="16.083056" Volume="1.685575"/>
+				</Body>
+				<Body Id="26" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.2518330513984228247 0.1249981427052644506 2.966328913269046907" Surface="0.931586" Volume="0.025800"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="9" Name="Wall B3:Wall B:394217" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" InstanceRef="30" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 2.615306854248046875 13.94140434265136719 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALL"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Wall B"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="F"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Vorgabe - Wand"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Wall B3:Wall B"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDbA"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="394217"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWALL/Name" Type="String" Value="Wall B3:Wall B:394219"/>
+				<Attr Name="IFCWALL/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDb8"/>
+				<Attr Name="IFCWALL/ObjectType" Type="String" Value="Wall B3:Wall B:394217"/>
+				<Attr Name="IFCWALL/Tag" Type="String" Value="394219"/>
+			</Attributes>
+			<BodyInstance Id="33" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 7" BodyRef="31"/>
+			<BodyInstance Id="34" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 8" BodyRef="32"/>
+		</ProductOccurence>
+		<ProductOccurence Id="30" Name="" ExchangeId="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="29" Name="" ExchangeId="" Behaviour="1">
+				<Body Id="31" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.348459601402282715 0.125 1.25" Surface="16.083056" Volume="1.685575"/>
+				</Body>
+				<Body Id="32" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.249912368876716029 0.1249998175348927681 2.940128971757306697" Surface="1.120810" Volume="0.033531"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="10" Name="Wall B4:Wall B:394256" ExchangeId="" LayerId="65535" Style="65535" Behaviour="1" InstanceRef="36" IsPart="true">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 6.115306854248046875 13.94140434265136719 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALL"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Wall B"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="F"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (DEU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="1532513714"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Vorgabe - Wand"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Wall B4:Wall B"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDwp"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="394256"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWALL/Name" Type="String" Value="Wall B4:Wall B:394258"/>
+				<Attr Name="IFCWALL/GlobalId" Type="String" Value="3IW47_8xL9Ihy5hp0HjDwn"/>
+				<Attr Name="IFCWALL/ObjectType" Type="String" Value="Wall B4:Wall B:394256"/>
+				<Attr Name="IFCWALL/Tag" Type="String" Value="394258"/>
+			</Attributes>
+			<BodyInstance Id="39" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 9" BodyRef="37"/>
+			<BodyInstance Id="40" Name="" ExchangeId="" LayerId="1" Behaviour="1" MeshInstanceKey="1 10" BodyRef="38"/>
+		</ProductOccurence>
+		<ProductOccurence Id="36" Name="" ExchangeId="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="35" Name="" ExchangeId="" Behaviour="1">
+				<Body Id="37" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="1.348459601402282715 0.125 1.25" Surface="16.083056" Volume="1.685575"/>
+				</Body>
+				<Body Id="38" Name="" ExchangeId="" LayerId="1" Style="1" Behaviour="1">
+					<PhysicalProperties CenterOfGravity="0.1976490493114754776 0.125 2.942070690733370686" Surface="1.125978" Volume="0.031790"/>
+				</Body>
+			</PartDefinition>
+		</ProductOccurence>
+	</ModelFile>
+</Root>
+
