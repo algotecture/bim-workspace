@@ -1,0 +1,19 @@
+{
+  "name": "bim-splitter",
+  "version": "0.0.1",
+  "description": "This package splits bim files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node split.js ../test/mock/arboleda.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algotecture/bimchain.git"
+  },
+  "author": "algotecture",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algotecture/bimchain/issues"
+  },
+  "homepage": "https://github.com/algotecture/bimchain#readme"
+}
