@@ -31,3 +31,9 @@ Precondition (installation instructions for ubuntu):
 ## fetch data & extract a value
 > get the data from data layer back, e.g. cpi property
 1. ```ipfs cat `cat ref` | jq '.cpi'```
+
+## download data from ipfs
+```bash
+ipfs deamon
+ipfs cat Qme5GawkhEceihJYYccGPvK5MzatwcAifa85qhNmMowcb2 > data/block1.json
+```
