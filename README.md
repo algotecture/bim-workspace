@@ -20,14 +20,14 @@ Precondition (installation instructions for ubuntu):
 > split 5 objects and save the first in data.json
 1. `jq '.[0]' test/mocks/5objects.json  > data.json`
 > add the data to ipfs, which returns a hash to retrieve the data from the network later, (which we will save in a database/blockchain)
-2. ipfs add data.json 
+2. `ipfs add data.json`
 > save the reference that was output (Qme... is the format of your ipfs hash)
-3. echo Qme5GawkhEceihJYYccGPvK5MzatwcAifa85qhNmMowcb2 > ref
+3. `echo Qme5GawkhEceihJYYccGPvK5MzatwcAifa85qhNmMowcb2 > ref`
 
 ## prepare, publish data & save reference hash (alternative command)
 > Alternatively you can do 1, 2 & 3 in 1 command like this:
-1. jq '.[0]' test/mocks/5objects.json | ipfs add - | awk '{ print $NF }' > ref
+1. `jq '.[0]' test/mocks/5objects.json | ipfs add - | awk '{ print $NF }' > ref`
 
 ## fetch data & extract a value
 > get the data from data layer back, e.g. cpi property
-1. ipfs cat `cat ref` | jq '.cpi'
+1. ```ipfs cat `cat ref` | jq '.cpi'```
