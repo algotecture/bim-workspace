@@ -5,7 +5,7 @@
 TBD
 
 - [ ] Property token
-- [ ] Posession token
+- [ ] Possession token
 
 ## Data layer exercises
 
